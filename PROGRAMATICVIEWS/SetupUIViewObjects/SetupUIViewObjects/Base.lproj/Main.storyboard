@@ -34,6 +34,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="customView" destination="RKF-Og-JkC" id="8sN-rd-mnS"/>
                         <outlet property="customeView" destination="8bC-Xf-vdC" id="4YZ-0p-mra"/>
                         <outlet property="view" destination="RKF-Og-JkC" id="gpH-Hu-Rnf"/>
                     </connections>
