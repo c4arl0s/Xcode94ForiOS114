@@ -13,7 +13,10 @@ class ViewController: UIViewController, PassDataDelegate {
         print("notified")
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // find out why you have to prepare for segue!
         if let destination = segue.destination as? SecondViewController {
+        // find ouy why you have to delegate until here
+        // oh! remember the example seen into appRewiewController code
             destination.delegate = self
         }
     }
@@ -27,7 +30,5 @@ class ViewController: UIViewController, PassDataDelegate {
     @IBAction func performSegueButtonTapped(_ sender: Any) {
     performSegue(withIdentifier: "goToSecondViewController", sender: nil)
     }
-    
-
 }
 
