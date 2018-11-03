@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SecondViewController.swift
 //  PassDataWithDelegationInSwift
 //
 //  Created by Carlos Santiago Cruz on 03/11/18.
@@ -8,18 +8,23 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+protocol PassDataDelegate {
+    func finishPassingData(string: String)
+}
 
+class SecondViewController: UIViewController {
+    var delegate: PassDataDelegate?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    }
+    @IBAction func passDataButtonTapped(_ sender: Any) {
+        delegate?.finishPassingData(string: "Send from SecondViewController")
     }
 
-
 }
-
