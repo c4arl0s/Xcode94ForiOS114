@@ -9,9 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController, PassDataDelegate {
-    func finishPassingData(string: String) {
-        print("notified")
-    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // find out why you have to prepare for segue!
         if let destination = segue.destination as? SecondViewController {
@@ -29,6 +27,9 @@ class ViewController: UIViewController, PassDataDelegate {
     }
     @IBAction func performSegueButtonTapped(_ sender: Any) {
     performSegue(withIdentifier: "goToSecondViewController", sender: nil)
+    }
+    func finishPassingData(string: String) {
+        print("notified from first ViewController")
     }
 }
 
