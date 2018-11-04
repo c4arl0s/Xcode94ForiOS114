@@ -20,7 +20,7 @@ class ItemStore {
         return newItem
     }
     init() {
-        for _ in 0..<1000 {
+        for _ in 0..<7 {
             createItem()
         }
     }
