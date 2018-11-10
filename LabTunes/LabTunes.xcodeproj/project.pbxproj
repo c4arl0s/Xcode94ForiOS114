@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8FA28AED2197377D005635F6 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA28AEC2197377D005635F6 /* MusicViewController.swift */; };
 		8FE1C9812196577C00FB90E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE1C9802196577C00FB90E2 /* AppDelegate.swift */; };
 		8FE1C9832196577C00FB90E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE1C9822196577C00FB90E2 /* ViewController.swift */; };
 		8FE1C9862196577C00FB90E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FE1C9842196577C00FB90E2 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8FA28AEC2197377D005635F6 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
 		8FE1C97D2196577C00FB90E2 /* LabTunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LabTunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FE1C9802196577C00FB90E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FE1C9822196577C00FB90E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				8FE1C9AE2196580400FB90E2 /* Models */,
 				8FE1C9802196577C00FB90E2 /* AppDelegate.swift */,
 				8FE1C9822196577C00FB90E2 /* ViewController.swift */,
+				8FA28AEC2197377D005635F6 /* MusicViewController.swift */,
 				8FE1C9842196577C00FB90E2 /* Main.storyboard */,
 				8FE1C987219657A300FB90E2 /* Assets.xcassets */,
 				8FE1C989219657A300FB90E2 /* LaunchScreen.storyboard */,
@@ -280,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FE1C9B72196587200FB90E2 /* Song.swift in Sources */,
+				8FA28AED2197377D005635F6 /* MusicViewController.swift in Sources */,
 				8FE1C9B22196583A00FB90E2 /* Session.swift in Sources */,
 				8FE1C9832196577C00FB90E2 /* ViewController.swift in Sources */,
 				8FE1C9B42196584E00FB90E2 /* Music.swift in Sources */,
